@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .description {
+        flex-wrap: wrap;
+    }
+    .skills {
+        width: 100%;
+    }
+}
